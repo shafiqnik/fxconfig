@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+	Fixed Collector WIFI Configurator
+	</title>
+
+
+
+</head>
+
+<body style="text-align:center;" id="body">
+	<p style="color:green;">
+	Fixed Collector WIFI Configuration Tool
+</p>
+
+	<p>
+		<!-- Making a text input -->
+		<input type="text" id="ssid" placeholder="wifi ssid"><br>
+		<input type="text" id="password" placeholder="wifi password"><br>
+
+		<!-- Button to send data -->
+		<button onclick="sendJSON()">Configure</button>
+
+	<!-- For printing result from server -->
+	<p class="result" style="color:green"></p>
+
+</p>
+
+<!-- Include the JavaScript file -->
+<script type="text/javascript" src="fxconfigjs.js"></script>
+
+
+</body>
+</html>
