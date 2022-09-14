@@ -14,7 +14,7 @@ function sendJSON(){
 
 
 
-		  let wifi1 = "http://192.168.99.1/cgi-bin/setrepeater?ssid="+ssid.value
+		  let wifi1 = "192.168.99.1/cgi-bin/setrepeater?ssid="+ssid.value
 			let wifi2 = wifi1+"&bssid=&encryption=psk-mixed&cipher=auto&key="+password.value
 			let wifi3 = wifi2+"&keyi=1&key1=&key2=&key3=&key4=&eap_type=tls&priv_key_pwd=&auth=PAP&priv_key2_pwd=&identity=&anonymous_identity=&password=&repeaterMode=dhcp&ipaddr=192.168.0.10&netmask=255.255.255.0&gateway=192.168.0.1&dns1=114.114.114.114&dns2=8.8.8.8&reverted=NO&net_profile=untitled&net_hidden=y&net_check="
 
