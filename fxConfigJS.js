@@ -10,7 +10,7 @@ function sendJSON(){
 
 
 
-			let profile = "http://192.168.99.1/cgi-bin/profilecheck"  //retreives wifi settings from FC
+			let profile = "http://192.168.99.1:80/cgi-bin/profilecheck"  //retreives wifi settings from FC
 
 
 
